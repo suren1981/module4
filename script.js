@@ -61,6 +61,6 @@ var lfn = fn.toLowerCase();
   if (lfn=="j") {
     console.log(aaaa);
   } else {
-    conslole.log(bbb);
+    console.log(bbb);
   }
 }
