@@ -41,8 +41,9 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 // using the 'speak' method or either helloSpeaker's or byeSpeaker's
 // 'speak' method.
 // See Lecture 50, part 1
-for (/* fill in parts of the 'for' loop to loop over names array */) {
-
+for (var i=0; i<names.length; i++) {
+var fn = names[i].charAt(0);
+var lfn = fn.toLowrCase();
   // STEP 11:
   // Retrieve the first letter of the current name in the loop.
   // Use the string object's 'charAt' function. Since we are looking for
@@ -57,9 +58,9 @@ for (/* fill in parts of the 'for' loop to loop over names array */) {
   // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
-  if (/* fill in condition here */) {
-    // byeSpeaker.xxxx
+  if (lfn=="j") {
+    console.log(aaaa);
   } else {
-    // helloSpeaker.xxxx
+    conslole.log(bbb);
   }
 }
