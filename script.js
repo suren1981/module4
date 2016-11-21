@@ -59,8 +59,8 @@ var lfn = fn.toLowerCase();
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
   if (lfn=="j") {
-    console.log("Good Bye" +  names[i]);
+    console.log("Good Bye"  +  names[i]);
   } else {
-    console.log("Hello" +  names[i]);
+    console.log("Hello"  +  names[i]);
   }
 }
