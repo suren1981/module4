@@ -43,7 +43,7 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 // See Lecture 50, part 1
 for (var i=0; i<names.length; i++) {
 var fn = names[i].charAt(0);
-var lfn = fn.toLowrCase();
+var lfn = fn.toLowerCase();
   // STEP 11:
   // Retrieve the first letter of the current name in the loop.
   // Use the string object's 'charAt' function. Since we are looking for
